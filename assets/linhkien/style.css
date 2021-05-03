@@ -1,0 +1,59 @@
+.content {
+  position: relative;
+}
+.content__background {
+  position: absolute;
+  background: url(/assets/img/background.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+.content__shop {
+  padding: 132px 436px;
+  display: flex;
+  flex-direction: column;
+}
+.content__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-bottom: 10px;
+}
+.content__column {
+  width: 25%;
+  padding: 0 10px;
+}
+.content__card {
+  height: 320.5px;
+}
+
+.content__card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+@media screen and (max-width: 800px) {
+  .content__shop {
+    padding: 0;
+  }
+  .content__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content__column {
+    width: 100%;
+  }
+  .content__card {
+    width: 100%;
+    margin: 0 10px;
+  }
+}

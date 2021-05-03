@@ -1,0 +1,19 @@
+.content {
+  margin-top: 80px;
+}
+.content__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.content__column {
+  flex: 50%;
+}
+.content__img {
+  background: url(/assets/img/87c761e43b10c94e9001.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
