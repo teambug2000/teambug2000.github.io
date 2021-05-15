@@ -16,6 +16,12 @@
 <link rel="apple-touch-icon-precomposed" href="/assets/icon/icon.png" type="image/png" sizes="120x120">
 <!-- google tv favicon -->
 <link rel="icon" href="/assets/icon/icon.png" sizes="96x96" type="image/png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="/assets/css/footer.css">
+<link rel="stylesheet" href="/assets/css/lightslider.css">
+<link rel="stylesheet" href="/assets/css/responsive.css">
+<script src="/assets/js/JQuery.js"></script>
+<script src="/assets/js/lightslider.js"></script>
 </head>
 <body>
     <div class="main">
@@ -61,10 +67,71 @@
                     <p>ASM là một đội ngũ chuyên cung cấp giải pháp thực tế ứng dụng trí tuệ nhân tạo vào cuộc sống !</p>
                 </div>
             </div>
+            <div class="content__intro">
+                <div class="intro__pic">
+                    <img src="/assets/img/dec72996fcb20eec57a3.jpg" alt="" style="max-width: 200px; height:200px; border-radius: 50%;">
+                </div>
+                <div class="intro__aboutus">
+                    <h1>Công nghệ sử dụng</h1>
+                </div>
+                <div class="intro__desciption">
+
+                    <p>ASM là một đội ngũ chuyên cung cấp giải pháp thực tế ứng dụng trí tuệ nhân tạo vào cuộc sống !</p>
+                </div>
+            </div>
+            <div class="content__video">
+                <ul id="adaptive" class="cs-hidden">
+
+                    <!--box-1--------------------------->
+                    <li class="item-a">
+                        <!---box------------------->
+                <div class="full-slider-box f-slide-1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DdJZ5Y5I6lg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </li>
+                 <!--box-2--------------------------->
+                    <li class="item-b">
+                        <!---box------------------->
+                <div class="full-slider-box f-slide-2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E41vcH0OwyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </li>
+                     <!--box-3--------------------------->
+                     <li class="item-c">
+                        <!---box------------------->
+                <div class="full-slider-box f-slide-3">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5i_c_g9sxOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                     </li>
+                </ul>
+            </div>
         </div>
          <div class="footer">
-
+            <div class="social"><a href="https://www.youtube.com/c/Tr%C3%ADtu%E1%BB%87to%E1%BA%A3s%C3%A1ngASM/featured" target="_blank"><i class="icon ion-social-youtube"></i></a><a href="https://www.facebook.com/BC.ASM.T.and.E" target="_blank"><i class="icon ion-social-facebook"></i></a></div>
+            <!--copyright-------------->
+        <span class="copyright">
+            Copyright 2021 - ASM
+        </span>
+        <!--subcribe---------------->
+        <div class="subscribe">
+            <form>
+            <input type="email" placeholder="Example@gmail.com" required/>
+            <input type="submit" value="Subscribe">
+            </form>
+        </div>
+            </div>
          </div>
         </div>
+    <script type="text/javascript">
+    $(document).ready(function() {
+    $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        auto:false,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});
+    </script>
 </body>
 </html>

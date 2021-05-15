@@ -15,45 +15,108 @@
   background-attachment: fixed;
   z-index: -1;
 }
-.content__shop {
-  padding: 132px 436px;
+.arrival-heading strong {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #1b1919;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 40px;
+  padding: 5px 30px;
+  border: 1px solid #e0e0e0;
+}
+.arrival-heading {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
-.content__row {
+.arrival-heading strong {
+  color: #ffffff;
+  background-color: #202020;
+  font-weight: 500;
+}
+.arrival-heading p {
+  color: #ffffff;
+  margin: 10px;
+  font-size: 0.9rem;
+}
+.product-container {
+  width: 90%;
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
-  padding-bottom: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
-.content__column {
-  width: 25%;
-  padding: 0 10px;
+.product-box {
+  display: flex;
+  flex-grow: 0.5;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin: 20px;
 }
-.content__card {
-  height: 320.5px;
+.product-img {
+  width: 200px;
+  height: 210px;
+  margin: 20px;
+  cursor: pointer;
+  position: relative;
 }
-
-.content__card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
+.product-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
-@media screen and (max-width: 800px) {
-  .content__shop {
-    padding: 0;
-  }
-  .content__row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .content__column {
-    width: 100%;
-  }
-  .content__card {
-    width: 100%;
-    margin: 0 10px;
-  }
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  border-top: 1px solid #f3f3f3;
+}
+.p-name {
+  color: #fff;
+  text-decoration: none;
+}
+.p-price {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.product-box:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  transition: 0.3s all ease;
+}
+.add-cart {
+  position: absolute;
+  right: -20px;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #0b9d8a;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  display: none;
+  animation: fade 0.3s;
+}
+.add-cart:hover {
+  background-color: #f76b6a;
+  transition: all ease 0.2s;
+}
+.product-box:hover .add-cart {
+  display: flex;
+}
+.new-arrival {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

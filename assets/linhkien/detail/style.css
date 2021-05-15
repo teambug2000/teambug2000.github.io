@@ -17,3 +17,28 @@
   background-size: cover;
   height: 800px;
 }
+.footer {
+  height: 120px;
+}
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer .social > a:hover {
+  opacity: 0.9;
+}
