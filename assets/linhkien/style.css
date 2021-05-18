@@ -1,5 +1,6 @@
 .content {
   position: relative;
+  top: 104px;
 }
 .content__background {
   position: absolute;

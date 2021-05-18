@@ -17,11 +17,11 @@ body {
 }
 .header {
   text-align: center;
-  position: relative;
+  position: fixed;
   width: 100%;
   z-index: 999;
   top: 0;
-  background-color: var(--background);
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
 }
 
 .header__brand {

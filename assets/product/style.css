@@ -7,6 +7,7 @@
 }
 .container {
   position: relative;
+  top: 104px;
 }
 .container__background {
   position: absolute;
