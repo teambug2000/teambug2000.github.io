@@ -1,5 +1,5 @@
 :root {
-  --background: rgba(0, 139, 218, 0.85);
+  --background: #92b7ff;
 }
 
 *,
@@ -11,17 +11,16 @@
 body {
   margin: 0;
   width: 100%;
-  background: rgba(0, 139, 218, 0.85);
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
 }
 .header {
   text-align: center;
-  position: relative;
+  position: fixed;
   width: 100%;
   z-index: 999;
   top: 0;
-  background-color: var(--background);
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
 }
 
 .header__brand {
