@@ -1,27 +1,16 @@
 .content {
   position: relative;
-  top: 104px;
-}
-.content__background {
-  position: absolute;
-  background: url(/assets/img/background.jpg);
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  z-index: -1;
+  top: 0px;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .content__quote--row {
   display: block;
   display: flex;
-  height: 820px;
+  height: 100vh;
   padding: 0 80px;
+  background: linear-gradient(45deg, #1cb5e0 0%, #000851 100%);
 }
 .content__quote--column {
   flex: 50%;
@@ -32,28 +21,26 @@
   text-transform: uppercase;
 }
 .quote__img {
-  background: url(/assets/img/ASM_logo-removebg-preview.png);
+  background: url(/assets/img/ASM_logo-removebg-preview_auto_x2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 12px;
 }
 .quote__text {
-  padding-top: 280px;
-  padding-left: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 20%;
 }
 
 .content__intro {
   display: flex;
   flex-direction: column;
-  height: 780px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
-  background: rgba(255, 255, 255, 0.05);
-  margin: 20px;
+  height: 100vh;
   justify-content: center;
   color: #fff;
   align-items: center;
+  background: linear-gradient(45deg, #fdbb2d 0%, #22c1c3 100%);
 }
 .intro__pic {
   padding-bottom: 40px;
@@ -61,6 +48,17 @@
 .intro__aboutus {
   text-transform: capitalize;
 }
+.intro__description {
+  font-size: 1.5em;
+  padding-left: 18%;
+  padding-right: 18%;
+  text-align: center;
+}
+.content__video {
+  height: 100vh;
+  background: linear-gradient(45deg, #efd5ff 0%, #515ada 100%);
+}
+
 .full-slider-box {
   width: 100%;
   height: 65vh;
@@ -70,8 +68,17 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding-top: 16%;
 }
-
+.Page3 {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fa9b48 100%
+  );
+}
 @media screen and (max-width: 800px) {
   .content__quote--row {
     padding-left: 0;

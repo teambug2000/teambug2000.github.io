@@ -22,6 +22,7 @@
 <link rel="stylesheet" href="/assets/css/responsive.css">
 <script src="/assets/js/JQuery.js"></script>
 <script src="/assets/js/lightslider.js"></script>
+<script src="/assets/js/jquery.fullpage.js"></script>
 </head>
 <body>
     <!-- Load Facebook SDK for JavaScript -->
@@ -68,83 +69,90 @@ window.fbAsyncInit = function() {
                     </label>
         </div>
         <div class="content">
-            <div class="content__background">
-            </div>
-            <div class="content__quote--row">
-                <div class="content__quote--column quote__text">
-                    <h1>welcome to </h1>
-                </div>
-                <div class="content__quote--column quote__img">
+            <section data-anchor="Page 1" class="Page-1">
+                <div class="content__quote--row">
+                    <div class="content__quote--column quote__text">
+                        <h1>welcome to </h1>
+                    </div>
+                    <div class="content__quote--column quote__img">
 
+                    </div>
                 </div>
-            </div>
-            <div class="content__intro">
-                <div class="intro__pic">
-                    <img src="/assets/img/dec72996fcb20eec57a3.jpg" alt="" style="max-width: 200px; height:200px; border-radius: 50%;">
-                </div>
-                <div class="intro__aboutus">
-                    <h1>về chúng tôi</h1>
-                </div>
-                <div class="intro__desciption">
+            </section>
+            <section data-anchor="Page 2" class="Page-2">
+                <div class="content__intro">
+                    <div class="intro__pic">
+                        <img src="/assets/img/dec72996fcb20eec57a3.jpg" alt="" style="max-width: 200px; height:200px; border-radius: 50%;">
+                    </div>
+                    <div class="intro__aboutus">
+                        <h1>Giới thiệu về ASMTechG</h1>
+                    </div>
+                    <div class="intro__description">
 
-                    <p>ASM là một đội ngũ chuyên cung cấp giải pháp thực tế ứng dụng trí tuệ nhân tạo vào cuộc sống !</p>
+                        <p>ASMTechG được khởi nguồn từ khát vọng, đam mê công nghệ của đội ngũ trẻ, năng động, giàu kiến thức và kinh nghiệm qua nhiều dự án thực tiễn. Với khát vọng xây dựng tập đoàn công nghệ nghiên cứu và sản xuất robot thông minh và các sản phẩm, giải pháp công nghệ, lãnh đạo cùng đội ngũ của ASMTechG luôn không ngừng thay đổi và phát triển để đạt tới vị trí dẫn đầu.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="content__intro">
-                <div class="intro__pic">
-                    <img src="/assets/img/dec72996fcb20eec57a3.jpg" alt="" style="max-width: 200px; height:200px; border-radius: 50%;">
-                </div>
-                <div class="intro__aboutus">
-                    <h1>Công nghệ sử dụng</h1>
-                </div>
-                <div class="intro__desciption">
+            </section>
+            <section data-anchor="Page 3" class="Page-3">
+                <div class="content__intro Page3">
+                    <div class="intro__pic">
+                        <img src="/assets/img/dec72996fcb20eec57a3.jpg" alt="" style="max-width: 200px; height:200px; border-radius: 50%;">
+                    </div>
+                    <div class="intro__aboutus">
+                        <h1>Lĩnh vực tiên phong</h1>
+                    </div>
+                    <div class="intro__description">
 
-                    <p>ASM là một đội ngũ chuyên cung cấp giải pháp thực tế ứng dụng trí tuệ nhân tạo vào cuộc sống !</p>
+                        <p>Với khát vọng xây dựng trung tâm công nghệ cao và đem tới thị trường những sản phẩm công nghệ, giải pháp kỹ thuật thiết thực nâng cao giá trị và chất lượng cuộc sống</p>
+                    </div>
                 </div>
-            </div>
-            <div class="content__video">
-                <ul id="adaptive" class="cs-hidden">
+            </section>
+            <section data-anchor="Page 4" class="Page-4">
+                <div class="content__video">
+                    <ul id="adaptive" class="cs-hidden" >
 
-                    <!--box-1--------------------------->
-                    <li class="item-a">
-                        <!---box------------------->
-                <div class="full-slider-box f-slide-1">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DdJZ5Y5I6lg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!--box-1--------------------------->
+                        <li class="item-a">
+                            <!---box------------------->
+                    <div class="full-slider-box f-slide-1">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DdJZ5Y5I6lg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    </li>
+                     <!--box-2--------------------------->
+                        <li class="item-b">
+                            <!---box------------------->
+                    <div class="full-slider-box f-slide-2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/E41vcH0OwyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    </li>
+                         <!--box-3--------------------------->
+                         <li class="item-c">
+                            <!---box------------------->
+                    <div class="full-slider-box f-slide-3">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5i_c_g9sxOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                         </li>
+                    </ul>
                 </div>
-                </li>
-                 <!--box-2--------------------------->
-                    <li class="item-b">
-                        <!---box------------------->
-                <div class="full-slider-box f-slide-2">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E41vcH0OwyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section data-anchor="Page 5" class="Page-5">
+                <div class="footer">
+                    <div class="social"><a href="https://www.youtube.com/c/Tr%C3%ADtu%E1%BB%87to%E1%BA%A3s%C3%A1ngASM/featured" target="_blank"><i class="icon ion-social-youtube"></i></a><a href="https://www.facebook.com/BC.ASM.T.and.E" target="_blank"><i class="icon ion-social-facebook"></i></a></div>
+                    <!--copyright-------------->
+                    <span class="copyright">
+                    Copyright 2021 - ASM
+                    </span>
+                    <!--subcribe---------------->
+                    <div class="subscribe">
+                        <form>
+                        <input type="email" placeholder="Example@gmail.com" required/>
+                        <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
                 </div>
-                </li>
-                     <!--box-3--------------------------->
-                     <li class="item-c">
-                        <!---box------------------->
-                <div class="full-slider-box f-slide-3">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5i_c_g9sxOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                     </li>
-                </ul>
-            </div>
+            </section>
         </div>
-         <div class="footer">
-            <div class="social"><a href="https://www.youtube.com/c/Tr%C3%ADtu%E1%BB%87to%E1%BA%A3s%C3%A1ngASM/featured" target="_blank"><i class="icon ion-social-youtube"></i></a><a href="https://www.facebook.com/BC.ASM.T.and.E" target="_blank"><i class="icon ion-social-facebook"></i></a></div>
-            <!--copyright-------------->
-        <span class="copyright">
-            Copyright 2021 - ASM
-        </span>
-        <!--subcribe---------------->
-        <div class="subscribe">
-            <form>
-            <input type="email" placeholder="Example@gmail.com" required/>
-            <input type="submit" value="Subscribe">
-            </form>
-        </div>
-            </div>
-         </div>
-        </div>
+    </div>
     <script type="text/javascript">
     $(document).ready(function() {
     $('#adaptive').lightSlider({
@@ -155,6 +163,7 @@ window.fbAsyncInit = function() {
         loop:true
     });
 });
+$('.content').fullpage();
     </script>
 </body>
 </html>

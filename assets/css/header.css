@@ -1,5 +1,5 @@
 :root {
-  --background: rgba(0, 139, 218, 0.85);
+  --background: #92b7ff;
 }
 
 *,
@@ -11,7 +11,6 @@
 body {
   margin: 0;
   width: 100%;
-  background: rgba(0, 139, 218, 0.85);
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
 }

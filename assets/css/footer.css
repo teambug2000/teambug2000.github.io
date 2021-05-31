@@ -1,12 +1,12 @@
 .footer {
-  height: 120px;
+  height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 10px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   flex-wrap: wrap;
-  margin-top: 20px;
+  background-image: linear-gradient(to top, #16222a 0%, #3a6073 100%);
 }
 .footer .social {
   padding-top: 20px;
@@ -33,7 +33,7 @@
 }
 .copyright {
   font-size: 0.9rem;
-  color: #4e4e4e;
+  color: #fff;
   letter-spacing: 1px;
 }
 .subscribe input {
